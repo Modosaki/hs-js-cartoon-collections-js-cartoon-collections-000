@@ -24,7 +24,7 @@ if (x[0]===true)
  {return true}
  else {return false}
 =======
-var x = planeteerCalls
+var x = planeteerCalls;
  arr.forEach(function(x,i) {
    arr[i] = v.toUpperCase() +'!';
 });
