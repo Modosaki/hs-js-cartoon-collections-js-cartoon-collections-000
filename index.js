@@ -47,7 +47,13 @@ var cheese = ['cheddar', 'gouda', 'camebert'];
 }
 
 function firstb(foods){
-  var x=foods.find(function find (bwords){ return bwords.start("b")})
+ 
+ var i = 0
+ for (let i= 0; i < foods.length; i++);.
+ 
+ if ()
+  
+
   
 }
 }
