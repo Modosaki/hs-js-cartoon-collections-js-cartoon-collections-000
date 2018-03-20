@@ -51,7 +51,7 @@ function firstb(foods){
  var i = 0
  for (let i= 0; i < foods.length; i++);.
  
- if ()
+ if (foods[i].starts)
   
 
   
