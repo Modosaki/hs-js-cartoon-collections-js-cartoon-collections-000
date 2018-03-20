@@ -47,7 +47,7 @@ var cheese = ['cheddar', 'gouda', 'camebert'];
 }
 
 function firstb(foods){
-  var x=foods.find(function find (bwords){ return bwords.start})
+  var x=foods.find(function find (bwords){ return bwords.start("b")})
   
 }
 }
