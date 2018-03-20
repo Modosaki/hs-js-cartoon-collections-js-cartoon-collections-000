@@ -9,6 +9,7 @@ return text.join("")
 
 
 function summonCaptainPlanet(planeteerCalls){
+<<<<<<< HEAD
 planeteerCalls.forEach(function(v,i) {
    planeteerCalls[i] = v.toUpperCase() +'!';
 });
@@ -22,6 +23,19 @@ function longPlaneteerCalls(words) {
 if (x[0]===true)
  {return true}
  else {return false}
+=======
+var x = planeteerCalls
+ arr.forEach(function(x,i) {
+   arr[i] = v.toUpperCase() +'!';
+});
+}
+
+function longPlaneteerCalls(words) {
+  var lengths = words.map(function(word) {
+  return word.length >= 4;
+});
+
+>>>>>>> d5518cb83b5dcbb3c38b864476c9899b01f2d360
 }
 
 
