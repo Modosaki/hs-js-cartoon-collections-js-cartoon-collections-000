@@ -45,3 +45,9 @@ var cheese = ['cheddar', 'gouda', 'camebert'];
   if (x===undefined){return 'no cheese!'}
   else {return x}
 }
+
+function firstb(foods){
+  var x=foods.find(function find (bwords){ return bwords ==})
+  
+}
+}
